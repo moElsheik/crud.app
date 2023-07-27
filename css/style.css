@@ -1,0 +1,58 @@
+input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background: #252020;
+    margin: 5px;
+    transition: all .5s;
+}
+
+input:focus{
+    outline: none;
+    transform: scale(1.03);
+    box-shadow: 1px 1px 2px 3px rgb(74, 16, 128);
+    background-color: black;
+    
+}
+.w-45{
+    width: 45%;
+}
+
+button.btn{
+    background-color: rgb(74, 16, 128);
+    transition:all .5s ease-in-out;
+    color: white;
+    border:2px solid black;
+
+}
+button.btn:hover{
+    letter-spacing: 1px;
+    background-color: rgb(33, 2, 61);
+    color: white;
+}
+
+#deleteAll{
+    background-color: rgb(179, 8, 8);
+
+}
+
+#deleteAll:hover{
+    background-color: rgb(114, 12, 12);
+    color: rgb(255, 255, 255);
+    border:2px solid red;
+    box-shadow: 0px 5px 5px 0px rgb(114, 12, 12) ;
+}
+#total::before{
+    content: "Total: ";
+}
+
+#display p{
+    color: rgb(33, 2, 61);
+}
+
+#displayproduct{
+background-color: rgb(102, 99, 99);
+}

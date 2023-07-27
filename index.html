@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark bg-opacity-75 vh-100" >
+
+    <div class="container">
+        <h1 class="my-5 text-center text-white py-3 border-bottom shadow-lg text-uppercase">Crud Project</h1>
+
+          <input name="input" id="PName" class="mb-2 rounded-3 text-white  " type="text" placeholder="Product Name " aria-label="default input" >
+          <div name="alert" id="PNameAlert" class="alert alert-danger  d-none ">Please put a valid Product Name</div>
+          <div class="px-1 price-inputs "><input name="input" id="price" class=" rounded-3 text-white " type="number" placeholder="Price " aria-label="default input" ></div>
+          <div name="alert" id="priceAlert" class="alert alert-danger d-none ">Please put a valid Price</div>
+
+          <div  class="row row-cols-1 row-cols-md-4 g-1  price-inputs">
+            <div class="px-1"><input name="input" id="taxes" class=" rounded-3 text-white " type="number" placeholder="Taxes " aria-label="default input"></div>
+            <div class="px-1"><input name="input" id="ads" class=" rounded-3 text-white " type="number" placeholder="Ads " aria-label="default input"></div>
+            <div class="px-1"><input name="input" id="discount" class=" rounded-3 text-white " type="number" placeholder="discount " aria-label="default input"></div>
+            <div class="px-1  d-flex justify-content-center  align-items-center"> <span id="total" class=" py-2 px-1 text-center rounded-3 text-white bg-danger  bg-gradient" ></span></div>
+
+        </div>  
+
+        <input name="input" id="count" class="mb-2 rounded-3 text-white " type="number" placeholder="Count " aria-label="default input" >
+        <div name="alert" id="countAlert"  class="alert alert-danger  d-none">Please put a valid data in Count </div>
+        <input name="input" id="category" class="mb-2 rounded-3 text-white " type="text" placeholder="Category " aria-label="default input">
+        <button  id="creatbtn" class="btn mb-2 rounded-5 w-100" type="submit">Save</button>
+        <input id="search" class="mb-2 rounded-3 text-white " type="text" placeholder="search " aria-label="default input">
+        
+        <button class=" btn mb-2 rounded-5 ms-auto d-none " id="deleteAll" type="button">Delete All</button>
+        <div class="clearfix"></div>
+
+        <div id="display" >
+
+            
+    
+
+         </div>
+            
+
+
+    </div>
+
+    
+
+
+    
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
